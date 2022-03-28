@@ -1,0 +1,16 @@
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.close {
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 10px;
+}

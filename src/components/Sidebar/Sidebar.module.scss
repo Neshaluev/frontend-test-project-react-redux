@@ -1,0 +1,43 @@
+.sidebar {
+  // overflow-y: scroll;
+  // position: fixed;
+  z-index: 99;
+  width: 280px;
+  margin-top: 64px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  // min-height: 200%;
+
+  .fixed {
+    background-color: #f5f5f5;
+    padding: 15px;
+    width: 280px;
+    position: fixed;
+    top: 64px;
+    left: 0;
+    bottom: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    &:hover {
+      overflow-y: scroll;
+    }
+  }
+  .item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 240px;
+  }
+}
+
+.title {
+  font-weight: 600;
+  font-size: 20px;
+  // text-transform: uppercase;
+}
+.text {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 5px;
+}

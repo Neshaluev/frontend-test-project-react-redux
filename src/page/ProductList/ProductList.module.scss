@@ -1,0 +1,48 @@
+.layouts {
+  min-height: 100vh;
+  overflow: hidden;
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 64px;
+    .content {
+      display: flex;
+      flex-direction: column;
+      width: calc(100% - 280px);
+    }
+  }
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.settings {
+  height: 64px;
+  h3 {
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .view {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    padding-right: 20px;
+  }
+}
+
+.panel {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.loader {
+  width: "100%";
+}
+.iconButton {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 25px;
+  cursor: pointer;
+}

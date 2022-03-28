@@ -1,0 +1,13 @@
+.conatiner {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: flex-end;
+    //   width: 400px;
+    .title {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}

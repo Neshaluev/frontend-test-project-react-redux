@@ -1,0 +1,33 @@
+.layouts {
+  padding-top: 64px;
+  .basket {
+    width: 800px;
+    margin: auto auto;
+    h2 {
+      padding-top: 10px;
+      font-size: 26px;
+    }
+    .sum {
+      display: flex;
+      // justify-content: flex-end;
+      align-items: flex-end;
+      flex-direction: column;
+      padding: 10px;
+      span {
+        font-size: 20px;
+        font-weight: 600;
+      }
+    }
+    .content {
+      height: 500px;
+      overflow-y: scroll;
+      overflow-x: hidden;
+    }
+    .buttons {
+      margin-top: 10px;
+      margin: 10px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
